@@ -24,7 +24,11 @@ The algorithm creates a unique hash based on both the file content and the speci
 
 ### Compilation
 ```bash
-g++ -o hashstring main.cpp
+g++ main.cpp
+```
+or
+```bash
+g++ main.cpp -o main
 ```
 
 ### Running the Program
@@ -33,7 +37,7 @@ The program expects two inputs via standard input:
 2. Number of columns (integer)
 
 ```bash
-./hashstring < input.txt
+./main < input.txt
 ```
 
 Or interactively:
